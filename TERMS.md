@@ -1,3 +1,8 @@
+---
+title: Kullanım Şartları
+permalink: /TERMS/
+---
+
 # Kullanım Şartları
 
 **Kuruşum** — Kişisel Finans Uygulaması  
@@ -19,7 +24,7 @@ Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. Apple App Sto
 Kuruşum, kullanıcıların kişisel gelirlerini, giderlerini, kredi kartı borcunu, faturalarını, vergi ödemelerini, taksitlerini, banka birikimlerini ve mevduat faizlerini takip etmesine yardımcı olan bir mobil uygulamadır.
 
 ### 2.1 Veri Saklama
-Tüm kullanıcı verileri **yalnızca cihazınızın yerel depolama alanında** (Apple SwiftData) saklanır. Bulut sunucusuna, geliştirici sunucusuna veya üçüncü taraf hizmetlerine veri gönderilmez. Detaylar için [Gizlilik Politikası](PRIVACY.md)'na bakınız.
+Tüm kullanıcı verileri **yalnızca cihazınızın yerel depolama alanında** (Apple SwiftData) saklanır. Bulut sunucusuna, geliştirici sunucusuna veya üçüncü taraf hizmetlerine veri gönderilmez. Detaylar için [Gizlilik Politikası](/kurusum-legal/PRIVACY/)'na bakınız.
 
 ### 2.2 Dış Servisler
 Uygulama yalnızca aşağıdaki resmi açık veri kaynaklarından veri çeker:
