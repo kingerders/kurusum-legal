@@ -1,3 +1,8 @@
+---
+title: Gizlilik Politikası
+permalink: /PRIVACY/
+---
+
 # Gizlilik Politikası
 
 **Kuruşum** — Kişisel Finans Uygulaması  
