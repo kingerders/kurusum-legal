@@ -1,0 +1,12 @@
+title: Kuruşum Yasal
+description: Her kuruş önemli — Kuruşum iOS uygulaması yasal belgeleri
+theme: jekyll-theme-cayman
+show_downloads: false
+lang: tr-TR
+
+# Permalinks: /PRIVACY/ ve /TERMS/ çalışsın diye her dosyaya front matter eklendi
+permalink: pretty
+
+# Jekyll exclude
+exclude:
+  - README.md
