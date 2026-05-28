@@ -18,7 +18,7 @@
 - **Platform**: iOS 17.0+ (iPhone)
 - **Kategori**: Finans
 - **Bundle ID**: `com.erders.kurusum`
-- **İletişim**: erders@hacettepe.edu.tr
+- **İletişim**: erders61@gmail.com
 
 ## Veri Politikası Özeti
 
