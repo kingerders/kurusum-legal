@@ -1,5 +1,4 @@
 ---
-title: Gizlilik Politikası
 permalink: /PRIVACY/
 ---
 
@@ -32,7 +31,7 @@ Geliştirici: erders
 Uygulamaya girdiğiniz tüm finansal bilgiler **yalnızca kendi cihazınızın yerel depolama alanında** (Apple SwiftData) saklanır:
 
 - Maaş, kira, mevduat, freelance gelir bilgileri
-- Kredi kartı borcu, ekstre tarihleri (kart numarası istenme**z**)
+- Kredi kartı borcu, ekstre tarihleri (kart numarası isteme**z**)
 - Fatura, vergi, taksit bilgileri
 - Banka birikim ve mevduat kayıtları
 - Stopaj ve kur ayarları
@@ -44,7 +43,7 @@ Bu veriler **hiçbir zaman** uzak bir sunucuya, bulut hizmetine veya geliştiric
 
 Aşağıdaki veriler Apple'ın kendi gizlilik politikası çerçevesinde işlenir; **geliştirici bu verilere erişemez**:
 
-- **App Store satın alma bilgileri**: Pro Kilit Açma (₺199) satın alırsanız Apple satın almayı işler. Geliştiriciye yalnızca "bu Apple ID Pro hakkına sahip" bilgisi (entitlement) ulaşır; ad, e-posta, kart bilgisi vb. **gelmez**.
+- **App Store satın alma bilgileri**: Pro Kilit Açma (₺99 launch fiyatı) satın alırsanız Apple satın almayı işler. Geliştiriciye yalnızca "bu Apple ID Pro hakkına sahip" bilgisi (entitlement) ulaşır; ad, e-posta, kart bilgisi vb. **gelmez**.
 - **Bildirim izinleri**: Sistem bildirim izni durumu Apple'da tutulur, uygulama yalnızca "izin verildi mi" bilgisini okur.
 
 ### 1.3 Dış Servisten Çekilen Veriler
@@ -63,54 +62,49 @@ Kuruşum **kesinlikle** aşağıdaki verileri toplamaz, işlemez veya iletmez:
 - ❌ Analitik / kullanım metrikleri (Firebase, Mixpanel, vb. **yok**)
 - ❌ Hata raporlama (crash reporting **yok**)
 - ❌ Sosyal medya / paylaşım SDK'ları
-- ❌ Banka veya hesap entegrasyonu (Open Banking yok, hesabınızı bağlayamazsınız — tüm girdi manueldir)
-- ❌ Kredi kartı numarası, CVV, son kullanma tarihi (uygulama yalnızca kart **borcunu** takip eder, kart numarası istemez)
+- ❌ Banka veya hesap entegrasyonu (Open Banking yok)
+- ❌ Kredi kartı numarası, CVV, son kullanma tarihi
 
 ---
 
 ## 3. Çocukların Gizliliği
 
-Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaş altı kullanıcılardan bilerek veri toplamıyoruz. Şüphe duyduğunuz bir durumu erders@hacettepe.edu.tr adresine bildirebilirsiniz.
+Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaş altı kullanıcılardan bilerek veri toplamıyoruz.
 
 ---
 
 ## 4. Veri Güvenliği
 
-Veriler cihazınızda Apple'ın yerel veri koruma mekanizmaları ile saklanır. iOS'un standart cihaz şifrelemesi etkin olduğu sürece veriler cihaz parolası / Face ID / Touch ID ile korunur. Gerçek güvenlik için cihazınızda **parola/Face ID/Touch ID** kullanmanızı şiddetle öneririz.
+Veriler cihazınızda Apple'ın yerel veri koruma mekanizmaları ile saklanır. iOS'un standart cihaz şifrelemesi etkin olduğu sürece veriler cihaz parolası / Face ID / Touch ID ile korunur.
 
 ---
 
 ## 5. Kullanıcı Hakları (KVKK / GDPR)
 
-Veri toplamadığımız için geleneksel anlamda işlenen kişisel veri yoktur. Yine de:
+Veri toplamadığımız için geleneksel anlamda işlenen kişisel veri yoktur.
 
-- **Erişim**: Uygulamadaki tüm verilere zaten siz erişirsiniz; cihazınızın yedeğini aldığınızda iCloud veya yerel iTunes yedeklemesinde yer alır.
-- **Silme**: Uygulamayı silmek tüm verileri siler. Ek bir "hesap silme" prosedürü gerekmez çünkü hesap yoktur.
-- **Dışa Aktarma**: Pro sürümde CSV/PDF dışa aktarım özelliği yol haritasındadır.
+- **Erişim**: Uygulamadaki tüm verilere zaten siz erişirsiniz.
+- **Silme**: Uygulamayı silmek tüm verileri siler.
+- **Dışa Aktarma**: Pro sürümde CSV/PDF dışa aktarım özelliği mevcuttur.
 
 ---
 
 ## 6. Politikanın Değiştirilmesi
 
-Bu politikayı güncellersek yürürlük tarihini değiştiririz ve uygulama güncellemesinde sürüm notlarında duyururuz. Önemli değişikliklerde uygulama içi bildirim gösterilir.
+Bu politikayı güncellersek yürürlük tarihini değiştiririz.
 
 ---
 
-## 7. Apple Privacy Manifest (App Tracking)
+## 7. Apple Privacy Manifest
 
-Kuruşum, Apple'ın App Tracking Transparency çerçevesinde **kullanıcıyı takip etmez**. `NSUserTrackingUsageDescription` gereksinimi yoktur çünkü IDFA toplamıyoruz.
+Kuruşum, Apple'ın App Tracking Transparency çerçevesinde **kullanıcıyı takip etmez**.
 
-Uygulama Privacy Nutrition Labels (Data Not Collected):
-- **Veri Toplanmaz** (Data Not Collected)
+Uygulama Privacy Nutrition Labels: **Veri Toplanmaz** (Data Not Collected)
 
 ---
 
 ## 8. İletişim
 
-Gizlilik konusunda sorularınız, talepleriniz veya endişeleriniz için:
+Gizlilik konusunda sorularınız için:
 
 **E-posta**: erders@hacettepe.edu.tr
-
----
-
-*Bu Gizlilik Politikası Apple App Store yayın zorunluluğu kapsamındaki belgedir.*
