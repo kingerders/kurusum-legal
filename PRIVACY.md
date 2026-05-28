@@ -8,7 +8,7 @@ permalink: /PRIVACY/
 Sürüm: 1.0  
 Yürürlük Tarihi: 27 Mayıs 2026  
 Geliştirici: erders  
-İletişim: erders@hacettepe.edu.tr
+İletişim: erders61@gmail.com
 
 ---
 
