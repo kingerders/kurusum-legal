@@ -107,4 +107,4 @@ Uygulama Privacy Nutrition Labels: **Veri Toplanmaz** (Data Not Collected)
 
 Gizlilik konusunda sorularınız için:
 
-**E-posta**: erders@hacettepe.edu.tr
+**E-posta**: erders61@gmail.com
